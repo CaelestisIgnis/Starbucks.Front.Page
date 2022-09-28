@@ -1,0 +1,139 @@
+.body {
+    position:relative;
+    margin-top: 0px;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    height: 96vh;
+    width: 98vw;
+    min-width: 900px;
+    min-height: 800px;
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu_top {
+    height: 10vh;
+    width: 98vw;
+    position: fixed;
+    transition: all 1s ease;
+}
+
+.menu_top:hover {
+    background-color: #fff;
+}
+
+
+.primeiro_menu {
+    display: none;
+    transition: all 1s ease;
+    font-weight: 200;
+}
+
+.logo:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.cafes {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.menu_cafe {
+    font-weight: 800;
+    flex-direction: column;
+    display: flex;
+    width: 60%;
+    height: 4vh;
+    align-items: center;
+}
+
+.cafes:hover .primeiro_menu {
+    display: block;
+    width: 98vw;
+    height: 40vh;
+    background-color: white;
+}
+
+.cafe_coluna {
+    display: flex;
+    width: 20%;
+    position: fixed;
+    height: 0%;    
+    flex-direction: column;
+}
+
+.receita_coluna {
+    display: flex;
+    width: 6%;
+    position: fixed;
+    align-items: center;
+    left: 20%;
+    height: 0%;
+    flex-direction: column;
+}
+
+.mais_coluna {
+    align-items: center;
+    display: flex;
+    width: 10%;
+    position: fixed;
+    left: 30%;
+    height: 0%;
+    flex-direction: column;
+}
+
+.menu_top {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.texto_menu {
+    display: flex; 
+    justify-content: left;
+    position: relative;
+    align-items: center;
+    margin-top: 2%;
+    width: 60%;
+    font-size: larger;
+}
+
+.pesquisar:hover, .carrinho:hover, .entrar:hover, .registrar:hover {
+    opacity: 50%;
+    cursor: pointer;
+    text-decoration: underline 3px solid black;
+}
+
+.logo {
+    margin-top: 0%;
+    display: flex;
+    justify-content: center; 
+}
+
+.icones_menu {
+    display: flex; 
+    justify-content: center;
+    bottom: 10%;
+    position: relative;
+    font-size: larger;
+    margin: 2%;
+    gap: 10%;
+    width: 55%;
+    background-color: none;
+}
+
+.container {
+    max-height: 80vh;
+    max-width: 98vw;
+}
